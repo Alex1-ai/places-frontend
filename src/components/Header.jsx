@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+// import logo from "../../public/locator.png"
 
 
 function Header() {
@@ -9,7 +10,7 @@ function Header() {
     <Navbar expand="lg" className="bg-warning">
       <Container fluid>
         <Navbar.Brand href="/">
-            <img src="http://localhost:3000/locator.png" alt="Logo" width="50" height="44" className="d-inline-block align-text-center  rounded-circle" />
+            <img src="/locator.png" alt="Logo" width="50" height="44" className="d-inline-block align-text-center  rounded-circle" />
             <div>Places</div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
